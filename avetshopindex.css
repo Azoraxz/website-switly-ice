@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: green;
+   
+ }
+ body{
+    display:flexbox;
+    height: 10;
+    border: 10px burlywood;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color:#77efff;
+    
+ }
+ 
+ button{
+       outline: none;
+       border-radius: 20px;
+       padding: 12px;
+       width: 150px;
+       box-shadow: 2px 2px 4px;
+       font-weight: bold;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: #ff7ee3;
+    }
+    section {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: right;
+       padding: 0;
+       height: 100;
+       right: 100%;
+      
+   }
+ 
+   .product {
+       background-color: #49fdb2;
+       box-shadow: 1cm rgba(0, 0, 0, 0.1);
+       margin: 2em;
+       padding: 2em;
+       text-align :center ;
+       background-size: 5mm;
+       box-shadow: 2px 2px 4px;
+       outline: none;
+       border-radius: 20px;
+   }
+   h1{
+    font-size: medium;}
+    h3{font-size: medium;
+    color: red;}
+
+   .sidebar{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: #042331;
+   }
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-color: #4bb9d4;
+    user-select: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
